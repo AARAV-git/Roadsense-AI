@@ -1,0 +1,25 @@
+# Local credentials and environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies, virtual environments, and generated build output
+**/node_modules/
+**/venv/
+**/.venv/
+**/.next/
+**/.pio/
+**/__pycache__/
+**/.pytest_cache/
+
+# Local data, databases, model weights, and runtime output
+backend/data/*.db*
+backend/data/uploads/*
+backend/runs/
+backend/weights/*.pt
+frontend/db/*.db*
+**/*.log
+**/*.pid
+
+# Generated workspace copy
+/workspace-d3ee5d44-8508-4da6-b26d-9e5f12a1f9d4/

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+aiosqlite
+pydantic-settings
+python-multipart
+httpx
+ultralytics
+opencv-python
+requests
