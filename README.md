@@ -121,7 +121,7 @@ the system responds when sensor readings go stale.
    calibrate.
 6. Verify the sensor axes by braking the board by hand. If `peak_decel_g` stays
    near zero, adjust `FORWARD_AXIS`; if braking registers as acceleration,
-   invert `FORWARD_SIGN`.
+   invert  `FORWARD_SIGN`.
 
 The local `phone_gps_config.h` can contain credentials. Do not commit it or
 share your API key or Wi-Fi password.
